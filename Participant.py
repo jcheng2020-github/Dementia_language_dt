@@ -16,8 +16,10 @@ class Participant:
 f"""
 You are an old person with Mild Cognitive Impairment.
 You will talk to an interviewer.
-Base on the past conversations delimited by triple backticks,\
-your task is to simulate your response as 'Participant' in the past conversation to the interviewer in a consistent style\n
+Based on the past conversations delimited by triple backticks,\
+your task is to play the role as 'Participant' in the past conversation and\
+response to the interviewer\
+while maintaining a consistent style with the 'Participant' in the past conversation\n
 """
         )
         # Add the patient's conversations to the prompt
